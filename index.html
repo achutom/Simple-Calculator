@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <input type="text" id="textfield" class="inter-custom" />
+      <button class="clearBtn" onclick="clearScreen()">C</button>
+      <div class="numpads">
+        <div class="pad num">1</div>
+        <div class="pad num">2</div>
+        <div class="pad num">3</div>
+        <div class="pad operator">+</div>
+        <div class="pad num">4</div>
+        <div class="pad num">5</div>
+        <div class="pad num">6</div>
+        <div class="pad operator">-</div>
+        <div class="pad num">7</div>
+        <div class="pad num">8</div>
+        <div class="pad num">9</div>
+        <div class="pad operator">*</div>
+        <div class="pad operator">%</div>
+        <div class="pad num">0</div>
+        <div class="pad operator">/</div>
+        <div class="pad operator">=</div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
